@@ -8,7 +8,7 @@ env:
   DOCKER_PASSWORD: ${{secrets.DOCKER_HUB_PASSWORD}}
   DOCKER_IMAGE: ritamhcltech/docker-git-demo
 jobs:
-  build-using-docker:
+  automate-docker:
     runs-on: ubuntu-latest
     steps:
       - name: checkout code
